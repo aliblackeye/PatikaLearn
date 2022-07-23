@@ -1,0 +1,28 @@
+.muzikaletleri {
+    list-style-position: inside;
+    margin: auto;
+}
+
+.baslik{
+    color:crimson;
+
+}
+
+.sayfabasligi{
+    color: blueviolet;
+
+}
+
+body{
+    background-color: pink;
+}
+
+a{
+    font-weight: bold;
+    color: green;
+}
+
+img{
+    width:300px;
+    height:300px;
+}

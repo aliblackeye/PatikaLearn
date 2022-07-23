@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Form Egzersizi</title>
+</head>
+
+<body>
+
+    <div id="alert">
+
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <form id="userForm">
+
+                    <div class="mb-3">
+                        <label class="form-label" for="username">Kullanıcı Adı</label>
+                        <input class="form-control" type="text" name="username" id="username">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label"  for="score">Not</label>
+                        <input class="form-control"  type="number" name="score" id="score">
+                    </div>
+
+                    <div class="mb-3">
+                        <button type="reset" class="btn btn-danger">Sıfırla</button>
+                        <button type="submit" class="btn btn-success">Gönder</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-sm-8 offset-sm-2 mt-4">
+                <ul class="list-group" id="liste">
+                    
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

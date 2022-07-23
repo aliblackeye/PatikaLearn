@@ -1,0 +1,11 @@
+body{
+    background-color: #E9ECEF;
+}
+
+.urunliste{
+    list-style-position: inside;
+}
+
+.display-4.mx-auto{
+    color: purple;
+}
